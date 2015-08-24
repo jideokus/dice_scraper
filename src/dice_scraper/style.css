@@ -1,0 +1,66 @@
+div#main-content {
+	width: 60%;
+    margin: 0 auto;
+    top: 20%;
+    position: absolute;
+    left: 20%;
+    padding: 80px 50px 20px 50px;
+    background: #ECF0F1;
+    border-radius: 5px;
+    box-shadow: #BDC3C7 0px 2px;
+}
+div#wrapper {
+    width: 70%;
+    margin: auto;
+}
+th{
+	
+	text-align: left;
+    width: 40%;
+    color: #7F8C8D;
+	font-weight: normal;
+}
+select, input {
+    border-radius: 3px;
+    width: 40%;
+    height: 30px;
+	padding: 3px;
+
+}
+input[type="submit"]{
+	width: 10%;
+    margin-top: 10px;
+    background: #E74C3C;
+    color: #ECF0F1;
+    border: 0;
+}
+span,select, input, th,h2{
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+.inner-box{
+	width: 70%;
+    margin: auto;
+}
+.data-center {
+    margin-bottom: 20px;
+	display:none;
+	transition: display 1s;
+}
+.data-center a{
+    padding: 5px 20px;
+    text-decoration: none;
+    background: #E74C3C;
+    border-radius: 3px;
+    color: #ECF0F1;
+    text-transform: uppercase;
+}
+div#progressbar {
+    margin-top: 10px;
+}
+.ui-progressbar-value.ui-widget-header.ui-corner-left.ui-corner-right ,.ui-progressbar-value.ui-widget-header.ui-corner-left{
+    background: #E74C3C;
+}
